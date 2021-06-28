@@ -67,6 +67,7 @@ header {
 nav {
   font-size: 1.6rem;
   width: 20vw;
+  padding-right: 1.3rem;
   display: flex;
   justify-content: space-evenly;
   
