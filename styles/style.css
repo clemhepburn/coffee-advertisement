@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  color: #37251b;
+}
+
+a {
+  text-decoration: none;
+  color: #37251b;
+}
+
+a:after {
+  color: #37251b;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.section-header {
+  font-size: 5rem;
+}
+
+.testimonial-link {
+  font-weight: normal;
+  font-size: 3.5rem;
+  width: 50rem;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: none;
+  color: rgb(232, 224, 207);
+  background-color: #37251b;
+  border-radius: 20px;
+}
+
+header {
+  background-color: floralwhite;
+  display: flex;
+  height: 4rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  justify-content: space-between;
+  border-bottom: 1px solid #37251b;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+ 
+  
+}
+
+.coffee-title {
+  font-size: 3rem;
+  font-style: italic;
+  text-decoration: wavy underline 1px #37251b;
+}
+
+nav {
+  font-size: 2rem;
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: floralwhite;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #37251b;
+  padding: 100px;
+  padding-top: 100px;
+  height:fit-content;
+}
+
+.container2 {
+  background-color: rgb(232, 224, 207);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #37251b;
+  padding: 4rem;
+}
+
+.container3 {
+  background-color: rgb(254, 243, 220);
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.coffee {
+
+  width: 400px;
+  margin-left: 15px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+p, button {
+  margin: 0;
+}
+
+.faq {
+  margin-bottom: 4rem;
+}
+
+.faq-div {
+  margin-top: 4rem;
+  width: 100vw;
+  border-top: 1px solid #37251b;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgb(254, 243, 220);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  color: #37251b;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #37251b;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: floralwhite;
+}
+
+.active {
+  border-bottom: none;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 30px;
+  background-color: rgb(254, 243, 220);
+  color: #37251b;
+  font-size: 2rem;
+  display: none;
+  overflow: hidden;
+  border-bottom: 1px solid #37251b;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 1.8rem;
+  color: #37251b;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.featured-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(216, 189, 174);
+}
+
+.logos {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nyt {
+  filter: invert(12%) sepia(15%) saturate(1707%) hue-rotate(337deg) brightness(97%) contrast(89%);
+  padding: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: floralwhite;
+  color: #37251b;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.social {
+  padding-left: 4rem;
+}
